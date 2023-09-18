@@ -3,7 +3,7 @@ const authRoutes = require('./src/routes/authentication');
 const { createMongoConnection } = require('./src/modules/mongoDbFactory');
 
 const app = express();
-const port = 3000;
+const port = 3111;
 // eslint-disable-next-line no-unused-expressions
 (async () => createMongoConnection())();
 
